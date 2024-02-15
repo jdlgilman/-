@@ -178,6 +178,18 @@
       <Project>{c76c2c0e-f620-4c99-92d9-97ac3893b6ab}</Project>
       <Name>Company.Application.Share</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Company.Core\Company.Core.csproj">
+      <Project>{2c91774d-e889-4ef6-99e3-418649bc8746}</Project>
+      <Name>Company.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Company.Logger\Company.Logger.csproj">
+      <Project>{68d505a6-4fec-4236-ba5f-405f265ac045}</Project>
+      <Name>Company.Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Company.UI\Company.UI.csproj">
+      <Project>{87115efb-5b94-4c20-b264-c8e15e4cebcb}</Project>
+      <Name>Company.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\MainWindow.xaml">
